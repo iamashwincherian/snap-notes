@@ -1,5 +1,5 @@
-import AllNotesPage from "./all-notes/page";
+import { redirect } from "next/navigation";
 
 export default function HomePage() {
-  return <AllNotesPage />;
+  redirect("/all-notes");
 }
